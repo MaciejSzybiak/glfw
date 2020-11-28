@@ -6,7 +6,8 @@ _ReSharper*
 *.sdf
 *.suo
 *.dir
-*.vcxproj*
+*.user
+*.userosscache
 *.sln
 .vs
 CMakeSettings.json
