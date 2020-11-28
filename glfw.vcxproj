@@ -62,6 +62,7 @@
   <ItemGroup>
     <ClInclude Include="include\GLFW\glfw3.h" />
     <ClInclude Include="include\GLFW\glfw3native.h" />
+    <ClInclude Include="src\egl_context.h" />
     <ClInclude Include="src\osmesa_context.h" />
     <ClInclude Include="src\wgl_context.h" />
     <ClInclude Include="src\win32_joystick.h" />
@@ -69,6 +70,7 @@
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="src\context.c" />
+    <ClCompile Include="src\egl_context.c" />
     <ClCompile Include="src\init.c" />
     <ClCompile Include="src\input.c" />
     <ClCompile Include="src\monitor.c" />
